@@ -20,11 +20,11 @@ There is an issue with 177 missing age values, and filling those in with the med
 
 ## Future Reflections
 
-**How this workflow would change for ML**
+**How this workflow would change for ML:**
 For a machine learning project the visualizations wouldn't be as important since those are really just for humans to look at. The cleaning would matter a lot more though and would need to go deeper than what we did here. Things like making sure every column that a model would actually use is clean and complete would be the priority.
 
-**Preparing this data for a neural network**
+**Preparing this data for a neural network:**
 The main thing would be converting the text columns like sex and embarked into numbers since a neural network can't work with text values. After that the numerical columns would need to be scaled so that something like fare which can be in the hundreds doesn't outweigh something like age. The data would also need to be split into training and testing sets before feeding it into a model.
 
-**Where agentic AI could help**
+**Where agentic AI could help:**
 Almost every IDE has some form of AI or agentic tools built into it at this point. If you loaded the dataset and dropped the project instructions in, an agentic system could run through the entire workflow on its own. It would handle the cleaning, the analysis, and the visualizations without much input except picking chart styles. You'd probably get a better output than what I got from this project, and then you could just review it and be done.
